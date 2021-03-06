@@ -1,0 +1,23 @@
+{
+    "name": "michenghua/compo",
+    "description": "try my package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mch",
+            "email": "1207379598@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flower\\Rose\\": "src/Flower/Rose",
+      "Flower\\Lily\\": "src/Flower/Lily",
+      "Flower\\Test\\": "src/Flower/Test"
+    }
+  }
+}
